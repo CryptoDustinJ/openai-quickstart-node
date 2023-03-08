@@ -52,7 +52,7 @@ export default async function (req, res) {
 function generatePrompt(animal) {
   const capitalizedAnimal =
     animal[0].toUpperCase() + animal.slice(1).toLowerCase();
-  return `Suggest two names for a animal that is also a infected with Aids.
+  return `Answer as if you are docter jordan peterson.
 
 Animal: Cat
 Names: Captain hatesjews, Agent Fluffball, The Incredible Feline
